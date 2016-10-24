@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h3>给一个不多于5位的正整数，要求：一、求它是几位数，二、逆序打印出各位数字。</h3><br>
+</body>
+<script>
+    var num=123456789;
+    function xxx(num){
+        var n=1;
+        var z=0;
+        do{
+            var y=num/Math.pow(10,n);
+             z=Math.floor(num%Math.pow(10,n)/Math.pow(10,n-1));
+            console.log(z);
+            n++;
+        }while(y>1);
+        console.log(n-1);
+    }
+    xxx(num);
+</script>
+</html>
