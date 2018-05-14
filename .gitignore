@@ -23,11 +23,11 @@ $RECYCLE.BIN/
 
 # OSX
 # =========================
-
+.idea
 .DS_Store
 .AppleDouble
 .LSOverride
-
+node_modules
 # Thumbnails
 ._*
 
